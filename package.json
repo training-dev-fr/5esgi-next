@@ -9,18 +9,26 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ariga/atlas-provider-sequelize": "^0.3.5",
+    "mysql2": "^3.23.0",
     "next": "16.2.10",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.8",
+    "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
+    "@ariga/ts-atlas-provider-sequelize": "^0.3.5",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.43",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "sequelize-cli": "^6.6.5",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
