@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ariga/atlas-provider-sequelize": "^0.3.5",
     "mysql2": "^3.23.0",
     "next": "16.2.10",
     "react": "19.2.4",
@@ -19,7 +18,6 @@
     "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
-    "@ariga/ts-atlas-provider-sequelize": "^0.3.5",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20.19.43",
     "@types/react": "^19",
