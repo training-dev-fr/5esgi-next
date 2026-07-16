@@ -18,13 +18,20 @@ export default function RegisterForm() {
             <div className="form-group">
                 <label htmlFor="nickname">Pseudo</label>
                 <input type="text" name="nickname" id="nickname" />
+                {state.errors?.nickname?.map((error) => (
+                    <p key={error}>{error}</p>
+                ))}
             </div>
             <div className="form-group">
                 <label htmlFor="password">Mot de passe</label>
                 <input type="password" name="password" id="password" />
+                {state.errors?.password?.map((error) => (
+                    <p key={error}>{error}</p>
+                ))}
             </div>
+            {state.message && <p>{state.message}</p>}
             <div className="form-group">
-                <button type="submit">Inscription</button>
+                <button type="submit" disabled={pending}>Inscription</button>
             </div>
         </form>
     );
