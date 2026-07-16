@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Créez votre compte et rejoignez la plateforme.",
 };
 
-export default function RegisterPage() {
+export default function LoginPage() {
   return (
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-slate-950 px-4 py-10 sm:px-6 lg:px-8">
       <div
@@ -42,7 +42,7 @@ export default function RegisterPage() {
               Votre espace commence ici.
             </h1>
             <p className="mt-5 max-w-sm text-base leading-7 text-white/75">
-              Créez votre compte en quelques secondes et accédez à toutes les fonctionnalités de la plateforme.
+              Connextez vous en quelques secondes et accédez à toutes les fonctionnalités de la plateforme.
             </p>
           </div>
 
@@ -64,14 +64,14 @@ export default function RegisterPage() {
           </div>
           <div className="mb-8">
             <h2 className="text-3xl font-bold tracking-tight text-slate-900">
-              Créer un compte
+              Connexion
             </h2>
             <p className="mt-2 text-sm leading-6 text-slate-500">
               Renseignez vos informations pour commencer.
             </p>
           </div>
 
-          <RegisterForm mode="register" />
+          <RegisterForm mode="login" />
         </div>
       </section>
     </main>

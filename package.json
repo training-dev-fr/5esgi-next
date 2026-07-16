@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "argon2": "^0.44.0",
+    "dotenv": "^17.4.2",
+    "jsonwebtoken": "^9.0.3",
     "mysql2": "^3.23.0",
     "next": "16.2.10",
     "react": "19.2.4",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.2",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20.19.43",
     "@types/react": "^19",
     "@types/react-dom": "^19",
